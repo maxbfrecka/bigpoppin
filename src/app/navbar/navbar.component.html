@@ -1,0 +1,14 @@
+<h1 class="siteHeader">Big Poppin</h1>
+
+<div class="container-fluid" [ngStyle]="{'background-color': navColor12, 'color': navColor7}">
+	
+
+	<ul class="nav navbar-nav">
+		<li id="navbar_links" [ngStyle]="{'background-color': navColor1, 'color': navColor7}"><a class="navbarLink" routerLink="/music" routerLinkActive="active">Music</a></li>
+		<li id="navbar_links" [ngStyle]="{'background-color': navColor3, 'color': navColor9}"><a class="navbarLink" routerLink="/forum" routerLinkActive="active">Forum</a></li>
+		<li id="navbar_links" [ngStyle]="{'background-color': navColor4, 'color': navColor10}"><a class="navbarLink"  routerLink="/about" routerLinkActive="active">About</a></li>
+		<li ng-if="!isLogged" id="navbar_links" [ngStyle]="{'background-color': navColor5, 'color': navColor11}"><a class="navbarLink" routerLink="/merch" routerLinkActive="active">Merch</a></li>
+
+
+	</ul>
+</div>

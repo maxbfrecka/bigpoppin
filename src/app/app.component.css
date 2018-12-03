@@ -1,0 +1,29 @@
+.title {
+	font-size: 50px;
+	background-color: yellow;
+	font-family: helvetica;
+	color: red;
+	font-style:bold;
+}
+
+#popoff1 {
+	color: blue;
+	font-size: 43px;
+	background-color:teal;
+	font-style:italic;
+	font-family:helvetica;
+}
+
+.div1 {
+	margin:4px;
+	background-color: grey;
+	padding:10px;
+}
+
+.routerContainer{
+	width:700px;
+	height:500px;
+	padding:40px;
+	margin:40px;
+	background-color:grey;
+}

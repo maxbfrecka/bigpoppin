@@ -1,0 +1,26 @@
+.footerContainer{
+	padding:2px;
+	margin:2px;
+}
+
+.patreonButton{
+	background-color:yellow;
+
+}
+
+.bandcampButton{
+	background-color:teal;
+
+}
+
+.youtubeButton{
+	background-color:yellow;
+}
+
+a{
+	padding:10px;
+	color:red;
+	font-size:20px;
+	font-family:helvetica;
+	font-style:bold;	
+}

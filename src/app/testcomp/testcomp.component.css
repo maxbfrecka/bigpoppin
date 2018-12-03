@@ -1,0 +1,31 @@
+#div1 {
+	height:15px; 
+	width:15px;
+	float:left;
+}
+
+#div2 {
+	height:15px; 
+	width:15px;
+	float:left;
+}
+
+#div3 {
+	background-color:green;
+	height:10px; 
+	width:10px;
+}
+
+#div4 {
+	background-color:yellow;
+	height:10px; 
+	width:10px;
+}
+
+
+
+#cont1 {
+	float:bottom;
+	position:relative;
+	display:inline-block;
+}
